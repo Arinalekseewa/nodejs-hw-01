@@ -4,7 +4,7 @@ export const getAllContacts = async () => {
     try {
         const existingContacts = await readContacts();
 
-        console.log('📋 Список контактів:');
+        console.log('Список контактів:');
         console.log(existingContacts);
 
         return existingContacts;
@@ -13,4 +13,4 @@ export const getAllContacts = async () => {
     }
 };
 
-console.log(await getAllContacts());
+await getAllContacts();

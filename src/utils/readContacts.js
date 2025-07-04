@@ -9,5 +9,4 @@ export const readContacts = async () => {
         console.log('', error.message);
         throw error;
     }
-
 };
